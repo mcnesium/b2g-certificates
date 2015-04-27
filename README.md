@@ -16,7 +16,7 @@ How-to
 
 Save the script somewhere on your system.
 
-Once done, add a new directory in the directory where you stored the script and place the certificates in this directory which you want to add to the phone's database. For CAcert, this would be the class 3 root certificate in PEM format as found on the [CAcert website](https://www.cacert.org/index.php?id=3).
+Once done, add a new directory in the directory where you stored the script and place the certificates which you want to add to the phone's database in the sub directory 'certs'. For CAcert, this would be the class 3 root certificate in PEM format as found on the [CAcert website](https://www.cacert.org/index.php?id=3).
 
 Then simply run the script.
 
