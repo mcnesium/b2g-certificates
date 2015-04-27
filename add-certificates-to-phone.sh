@@ -5,7 +5,7 @@ ROOT_DIR_DB=/data/b2g/mozilla
 CERT=cert9.db
 KEY=key4.db
 PKCS11=pkcs11.txt
-DB_DIR=`adb shell "ls -d ${ROOT_DIR_DB}/*.default 2&gt;/dev/null" | sed "s/default.*$/default/g"`
+DB_DIR=`adb shell "ls -d ${ROOT_DIR_DB}/*.default 2>/dev/null" | sed "s/default.*$/default/g"`
 
 if [ "${DB_DIR}" = "" ]; then
   echo "Profile directory does not exists. Please start the b2g process at
